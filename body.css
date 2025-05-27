@@ -1,4 +1,18 @@
+img{
+    width:200px;
+    height: 100px;
+}
+
 h1{
+    color:#6464e7;
+}
+
+.fortop{
+    background-color: rgb(172, 173, 227);
+    border-radius: 5px;
+
+}
+h2{
     text-align:center;
 }
 
@@ -8,28 +22,29 @@ a{
     width: calc(25% - 10px);            /*我要一行四个,为什么在手机显示就乱了*/
     height:45px;                        /*高度*/
     line-height:45px;
-    text-decoration: none;
+    text-decoration: none;              /*就是不要超链接的下划线*/
     background-color: #007BFF;        /* 真漂亮 */
     text-align: center;        
     border-radius: 5px;                 /*设置圆角的，非常美丽*/
     margin: 10px 0; 
     box-sizing: border-box;
+    transition:.5s;
 }
 
 a:hover{
     background-color: #3700ff;
+    box-shadow: 0 0 15px #3700ff
+                0 0 50px #3700ff;
 }
-/*    摒弃是因为实在是太丑了。。。
-    text-shadow:0 0 15px #0f0,
-                0 0 50px #0f0;
-*/
-
 .box{
     background-color: rgba(181, 202, 221, 0.849);
     border-radius:5px;
     box-shadow:2px 2px 2px 2px #D0D0D0;
 }
-
+.box:hover{
+    background-color: rgb(176, 224, 224);
+}
+   
 .link-container{
     background-color: #D0D0D0;
     color:(255,255,255);
@@ -40,12 +55,20 @@ a:hover{
     border-radius: 5px; 
 }
 
+.link-container:hover{
+    background-color: rgb(222, 188, 214);
+}
+
 .link-container2{
-    background-color: #6464e7;
+    background-color:rgb(172, 173, 227) ;
     color:black;
     display:block;
     width:98%;
     height:60px;
     text-align:center;
     border-radius: 5px; 
+}
+
+.link-container2:hover{
+    background-color: #6464e7;
 }

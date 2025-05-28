@@ -19,7 +19,7 @@ h2{
 a{
     color: #ffffff;
     display:inline-block;               /*必须要是inline-block而不是block，因为block会自动换行*/
-    width: calc(25% - 10px);            /*我要一行四个,为什么在手机显示就乱了*/
+    width: calc(26% - 10px);            /*我要一行四个,为什么在手机显示就乱了*/
     height:45px;                        /*高度*/
     line-height:45px;
     text-decoration: none;              /*就是不要超链接的下划线*/
@@ -64,7 +64,6 @@ a:hover{
     color:black;
     display:block;
     width:98%;
-    height:60px;
     text-align:center;
     border-radius: 5px; 
 }

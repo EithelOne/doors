@@ -52,6 +52,7 @@ a:hover{
     justify-content:center;             /*文字居中了*/
     gap:20px;
     width:95%;
+    margin:0 auto;                      /*卡片居中*/
     border-radius: 5px; 
 }
 
@@ -64,6 +65,7 @@ a:hover{
     color:black;
     display:block;
     width:98%;
+    margin:0 auto;
     text-align:center;
     border-radius: 5px; 
 }
